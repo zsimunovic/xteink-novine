@@ -3,7 +3,7 @@
   <id>urn:uuid:24fd6140-46bc-5f0c-8599-61a1cd8e1ac5</id>
   <title>Novine</title>
   <subtitle>Dnevni pregled vijesti za Xteink</subtitle>
-  <updated>2026-11-25T14:45:21Z</updated>
+  <updated>2026-11-25T14:57:55Z</updated>
   <author><name>Jutarnji pregled</name></author>
   <link rel="self" href="https://zsimunovic.github.io/xteink-novine/opds.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
   <link rel="start" href="https://zsimunovic.github.io/xteink-novine/opds.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>

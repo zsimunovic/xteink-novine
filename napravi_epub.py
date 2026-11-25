@@ -31,6 +31,10 @@ p { margin: 0 0 0.3em; text-align: left; }
 .izvor { font-size: 0.8em; font-style: italic; color: #444; margin-bottom: 0.6em; }
 ul.ukratko { padding-left: 1.1em; margin: 0.4em 0; }
 ul.ukratko li { margin-bottom: 0.5em; }
+.vrijeme { border: 1px solid #000; padding: 0.3em 0.5em; margin: 0.4em 0 0.6em; }
+.zasto { font-size: 0.9em; margin: 0.15em 0 0.3em 0.6em; padding-left: 0.4em; border-left: 2px solid #000; }
+.zanimljivost { font-style: italic; margin: 0.8em 0.6em; }
+.autor { text-align: right; margin-right: 0.6em; }
 ol.sadrzaj { padding-left: 1.3em; }
 ol.sadrzaj li { margin-bottom: 0.3em; }
 hr { border: 0; border-top: 1px solid #000; margin: 0.8em 0; }
@@ -59,11 +63,23 @@ def naslovnica(izd: dict, d: date) -> bytes:
     img = Image.new("L", (W, H), 255)
     dr = ImageDraw.Draw(img)
 
+    linux = {  # zamjene kad nema macOS fontova (npr. u oblaku)
+        "Georgia.ttf": "DejaVuSerif.ttf",
+        "Georgia Bold.ttf": "DejaVuSerif-Bold.ttf",
+        "Georgia Italic.ttf": "DejaVuSerif-Italic.ttf",
+    }
+
     def font(name, size):
-        try:
-            return ImageFont.truetype(str(FONTS / name), size)
-        except OSError:
-            return ImageFont.load_default()
+        kandidati = [FONTS / name]
+        for d in ("/usr/share/fonts/truetype/dejavu", "/usr/share/fonts/dejavu"):
+            kandidati.append(Path(d) / linux.get(name, "DejaVuSerif.ttf"))
+            kandidati.append(Path(d) / "DejaVuSerif.ttf")
+        for k in kandidati:
+            try:
+                return ImageFont.truetype(str(k), size)
+            except OSError:
+                continue
+        return ImageFont.load_default(size=size)
 
     def centar(y, text, f):
         w = dr.textlength(text, font=f)
@@ -104,7 +120,8 @@ def napravi(json_path: Path) -> Path:
     prva = (
         f'<h1>{escape(izd.get("naslov", "Novine"))}</h1>'
         f'<p class="datum">{escape(lijepi_datum(d))}<br/>{escape(izd.get("razdoblje", ""))}</p>'
-        f'<h2>Ukratko</h2><ul class="ukratko">{ukratko}</ul>'
+        + (f'<p class="vrijeme"><b>Vrijeme:</b> {escape(izd["vrijeme"])}</p>' if izd.get("vrijeme") else "")
+        + f'<h2>Ukratko</h2><ul class="ukratko">{ukratko}</ul>'
         f'<hr/><h3>Sadržaj</h3><ol class="sadrzaj">{sadrzaj}</ol>'
     )
     chapters.append(("uvod", "uvod.xhtml", "Ukratko", xhtml("Ukratko", prva)))
@@ -114,9 +131,18 @@ def napravi(json_path: Path) -> Path:
         for c in r["clanci"]:
             body.append(f'<h3>{escape(c["naslov"])}</h3>')
             body.append(f'<p>{escape(c["tekst"])}</p>')
+            if c.get("zasto"):
+                body.append(f'<p class="zasto"><b>Zašto je važno:</b> {escape(c["zasto"])}</p>')
             if c.get("izvor"):
                 body.append(f'<p class="izvor">Izvor: {escape(c["izvor"])}</p>')
         chapters.append((f"r{i}", f"r{i}.xhtml", r["naziv"], xhtml(r["naziv"], "\n".join(body))))
+
+    zan = izd.get("zanimljivost")
+    if zan:
+        kraj = f'<h2>Za kraj</h2><p class="zanimljivost">{escape(zan["tekst"])}</p>'
+        if zan.get("autor"):
+            kraj += f'<p class="autor">— {escape(zan["autor"])}</p>'
+        chapters.append(("kraj", "kraj.xhtml", "Za kraj", xhtml("Za kraj", kraj)))
 
     # --- nav (EPUB3) i toc.ncx (EPUB2, za starije čitače) ---
     nav_li = "".join(f'<li><a href="{f}">{escape(n)}</a></li>' for _, f, n, _ in chapters)

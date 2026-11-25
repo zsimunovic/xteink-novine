@@ -1,4 +1,20 @@
 {
   "base_url": "https://zsimunovic.github.io/xteink-novine/",
-  "max_izdanja": 14
+  "max_izdanja": 14,
+  "izvori": {
+    "Index": "https://www.index.hr/rss",
+    "N1": "https://n1info.hr/feed/",
+    "Jutarnji": "https://www.jutarnji.hr/feed",
+    "Tportal": "https://www.tportal.hr/rss",
+    "Poslovni dnevnik": "https://www.poslovni.hr/feed",
+    "Netokracija": "https://netokracija.com/feed",
+    "Bug": "https://www.bug.hr/rss",
+    "BBC World": "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "BBC Business": "https://feeds.bbci.co.uk/news/business/rss.xml",
+    "BBC Technology": "https://feeds.bbci.co.uk/news/technology/rss.xml",
+    "The Verge": "https://www.theverge.com/rss/index.xml",
+    "Ars Technica": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+    "Good e-Reader": "https://goodereader.com/blog/feed",
+    "The eBook Reader": "https://blog.the-ebook-reader.com/feed/"
+  }
 }
