@@ -1,0 +1,17 @@
+{
+  "app_id": "novine",
+  "display_name": "Novine",
+  "version": "1.0.0",
+  "author": "zsimunovic",
+  "description": "Dnevni pregled vijesti na hrvatskom: vrijeme za Zagreb, Ukratko i rubrike. Preuzima se pri otvaranju i čita bez Wi-Fija; može biti zaključani ekran.",
+  "entry": "index.lua",
+  "api": "2.0",
+  "permissions": [
+    "net"
+  ],
+  "lockscreen": {
+    "enabled": true,
+    "entry": "lockscreen.lua",
+    "interval_sec": 3600
+  }
+}

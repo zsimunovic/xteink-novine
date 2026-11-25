@@ -86,6 +86,40 @@ def main():
 </body></html>
 """
     (ROOT / "index.html").write_text(html, encoding="utf-8")
+
+    # Stalna adresa za InkApp "Novine": zadnje izdanje u JSON-u.
+    if lista:
+        najnovije = dict(lista[0])
+        najnovije["format"] = 1
+        najnovije["generirano"] = now
+        (ROOT / "najnovije.json").write_text(
+            json.dumps(najnovije, ensure_ascii=False, separators=(",", ":")), encoding="utf-8"
+        )
+        (ROOT / "najnovije.txt").write_text(tekst_za_inkapp(najnovije), encoding="utf-8")
+
+
+def tekst_za_inkapp(izd):
+    """Jednostavan redak-po-redak format koji Lua aplikacija čita bez JSON-a.
+
+    Svaki redak je OZNAKA|vrijednost:  D datum, N naslov, R razdoblje, V vrijeme,
+    U ukratko (više), S rubrika, T naslov članka, X tekst, Z zašto je važno,
+    I izvor, K zanimljivost, A autor zanimljivosti, G generirano.
+    """
+    def red(oznaka, v):
+        v = " ".join(str(v or "").split())  # bez novih redova
+        return f"{oznaka}|{v}" if v else None
+
+    out = [red("D", izd["datum"]), red("N", izd.get("naslov")), red("R", izd.get("razdoblje")),
+           red("V", izd.get("vrijeme")), red("G", izd.get("generirano"))]
+    out += [red("U", u) for u in izd.get("ukratko", [])]
+    for r in izd.get("rubrike", []):
+        out.append(red("S", r["naziv"]))
+        for c in r.get("clanci", []):
+            out += [red("T", c.get("naslov")), red("X", c.get("tekst")),
+                    red("Z", c.get("zasto")), red("I", c.get("izvor"))]
+    zan = izd.get("zanimljivost") or {}
+    out += [red("K", zan.get("tekst")), red("A", zan.get("autor"))]
+    return "\n".join(x for x in out if x) + "\n"
     print(f"opds.xml: {len(lista)} izdanja")
 
 
