@@ -1,0 +1,174 @@
+{
+  "datum": "2026-11-25",
+  "naslov": "Jutarnji pregled",
+  "razdoblje": "Vijesti od 24. i 25. studenoga 2026.",
+  "ukratko": [
+    "Poništen natječaj za izbor Dijane Zadravec; liječničke udruge traže da se zadrži 18 radiologa.",
+    "Vlada šalje paket socijalnih mjera: veća potpora za novorođenče (803 €), veće mirovine vatrogascima i nova naknada za njegovatelje.",
+    "Trump najavio nove carine za EU, Kinu, Indiju i još 11 država.",
+    "Procurjeli ruski podaci: Rusija je u ratu u Ukrajini izgubila gotovo 500.000 ljudi.",
+    "Perišić postao najstariji strijelac iz penala u Ligi prvaka; Mladost se nakon 27 godina vraća u odbojkašku Ligu prvaka."
+  ],
+  "rubrike": [
+    {
+      "naziv": "Hrvatska",
+      "clanci": [
+        {
+          "naslov": "Srušeno imenovanje Dijane Zadravec",
+          "tekst": "Natječaj za izbor Dijane Zadravec jednoglasno je poništen, što je potvrdila i ministrica zdravstva Hrstić. Slučaj je izazvao velike potrese u bolnici Sestre milosrdnice. Ravnatelj kaže da je jedan liječnik već povukao ostavku, a Liječnička komora i udruge upozoravaju da je sada ključno zadržati svih 18 radiologa. HUBOL poručuje da je dosta političkog kadroviranja.",
+          "izvor": "N1, Jutarnji, Index"
+        },
+        {
+          "naslov": "Paket socijalnih mjera: novorođenčad, vatrogasci, njegovatelji",
+          "tekst": "Vlada je u hitnu saborsku proceduru uputila nekoliko izmjena zakona. Jednokratna potpora za novorođeno dijete raste s 618 na 803 eura od 1. siječnja 2027. Vatrogascima se ukida progresivno smanjenje mirovina, uz porast od oko 155 eura. Njegovatelji najtežih ratnih vojnih invalida primat će oko 1.180 eura umjesto 807. Najavljen je i novi dodatak na mirovinu za branitelje, ovisno o vremenu provedenom u ratu.",
+          "izvor": "Index, Poslovni dnevnik, N1"
+        },
+        {
+          "naslov": "Plenković: inflacija pada na 2,7 posto",
+          "tekst": "Na sjednici Vlade premijer Andrej Plenković najavio je pad inflacije na 2,7 posto. Rekao je i da su građani u trezorske zapise uložili više od milijardu eura.",
+          "izvor": "N1"
+        },
+        {
+          "naslov": "Klinika za tumore: odlazi 70 posto onkologa",
+          "tekst": "Forum onkoloških udruga upozorava da s Klinike za tumore KBC-a Sestre milosrdnice odlazi 70 posto onkologa. Prema njihovim navodima, rad u ambulantama od petka bi trebali preuzeti specijalizanti i liječnici drugih specijalnosti.",
+          "izvor": "Jutarnji, N1"
+        },
+        {
+          "naslov": "Sabor raspravlja o smrti Kristiana Josipa Periša",
+          "tekst": "Saborski Odbor za zdravstvo raspravljao je o sigurnosti pacijenata i kvaliteti psihijatrijske skrbi nakon smrti pacijenta u bolnici Jankomir. Inspekcija se brani manjkom ljudi: »Nema nas 50, nismo policija.«",
+          "izvor": "N1, Jutarnji"
+        },
+        {
+          "naslov": "Uhićeni brat Davora Macure i direktorica Alta grupe",
+          "tekst": "Dubravko Macura, brat vlasnika Alta banke Davora Macure, i Tatjana Bundalo, direktorica Alta grupe (bivša Alta Pay Group), uhićeni su u srijedu ujutro.",
+          "izvor": "N1"
+        },
+        {
+          "naslov": "EK: nekretnine u Hrvatskoj precijenjene",
+          "tekst": "Europska komisija ocjenjuje da su nekretnine u Hrvatskoj precijenjene i predviđa daljnji dvoznamenkasti rast cijena, unatoč padu prodaje i strožim kreditima.",
+          "izvor": "Index"
+        },
+        {
+          "naslov": "Osijek dobiva novu bolnicu",
+          "tekst": "KBC Osijek priprema gradnju nove bolnice vrijedne 584 milijuna eura.",
+          "izvor": "Index, Poslovni dnevnik"
+        },
+        {
+          "naslov": "Dan borbe protiv nasilja nad ženama",
+          "tekst": "Zastupnice svih stranaka postavile su crvene cipele na ulaz u Sabor. SDP je predložio novi zakon o prevenciji femicida koji se temelji na ranoj procjeni rizika i suradnji institucija.",
+          "izvor": "N1, Index"
+        },
+        {
+          "naslov": "Ukratko",
+          "tekst": "USKOK je optužio troje ljudi za krijumčarenje najmanje 192 migranta iz BiH. Ministar Bačić tvrdi da Zagreb za obnovu nakon potresa nije potrošio ni euro iz vlastitog proračuna. Mjesto kod Ogulina danima je pod vodom, a SDSS pita je li za to odgovoran HEP.",
+          "izvor": "N1, Index"
+        }
+      ]
+    },
+    {
+      "naziv": "Svijet",
+      "clanci": [
+        {
+          "naslov": "Trump uvodi nove carine",
+          "tekst": "Američki predsjednik predložio je nove carine za velike trgovinske partnere, među njima EU, Kinu, Indiju i još 11 država. Tako ne odustaje od protekcionizma unatoč porazu republikanaca na međuizborima.",
+          "izvor": "Jutarnji, N1"
+        },
+        {
+          "naslov": "Rusija izgubila gotovo 500.000 ljudi",
+          "tekst": "Procurjeli ruski podaci, koje je analizirao BBC, pokazuju da je Rusija u ratu u Ukrajini izgubila gotovo pola milijuna ljudi i da je invazija iz temelja promijenila obrasce smrtnosti u zemlji.",
+          "izvor": "BBC"
+        },
+        {
+          "naslov": "Ukrajinski napadi na ruske brodove kod Libije",
+          "tekst": "U ukrajinskim napadima na ruske brodove poginula su dva vojnika. Libijska vlada na istoku zemlje uložila je prigovor UN-u, a njezine snage najavljuju odmazdu. Napade je kritizirala i Italija.",
+          "izvor": "N1, Index"
+        },
+        {
+          "naslov": "EU traži dogovor o proračunu i Ukrajini",
+          "tekst": "Čelnici EU-a na izvanrednom summitu traže kompromis o novom proračunu i pomoći Ukrajini. Von der Leyen tvrdi da Putin ne uspijeva slomiti Ukrajinu na bojištu pa joj pokušava slomiti duh. Kancelar Merz najavio je rekordna ulaganja u obranu.",
+          "izvor": "Index, N1"
+        },
+        {
+          "naslov": "Srbija: uhićen vlasnik Informera",
+          "tekst": "Dragan J. Vučićević, vlasnik i glavni urednik provladinog Informera, uhićen je po nalogu beogradskog tužiteljstva. Dio zastupnika napustio je sjednicu Skupštine Srbije.",
+          "izvor": "Index, N1"
+        },
+        {
+          "naslov": "Ukratko",
+          "tekst": "Papa Lav XIV. oštro je kritizirao propali klimatski summit UN-a. Xi Jinping pokrenuo je istragu protiv šefa Šangaja Chena Jininga, četvrtog člana Politbiroa osumnjičenog za korupciju. Puigdemont se 12. prosinca vraća u Španjolsku nakon primjene zakona o amnestiji. U Izraelu Gadi Eisenkot i dalje ne može sastaviti vladu.",
+          "izvor": "Index, N1, BBC"
+        }
+      ]
+    },
+    {
+      "naziv": "Ekonomija",
+      "clanci": [
+        {
+          "naslov": "Nvidia: Huangov povratak i Trumpova uloga",
+          "tekst": "Jensen Huang vratio se na čelo Nvidije nakon naglog odlaska, a Trump tvrdi da je on »uvjerio« tvrtku da ga vrati. Povratak je dionici isprva donio bilijun dolara vrijednosti, no cijena je potom pala 7 posto. Kongresnici traže odgovore o predsjednikovoj umiješanosti, a vrh američkog pravosuđa izbjegao je pitanja o istrazi.",
+          "izvor": "BBC"
+        },
+        {
+          "naslov": "Rimac o sukobu s Volkswagenom",
+          "tekst": "Mate Rimac otkrio je da je ušao u »žestok sukob« s Volkswagenom tijekom pregovora i da je odbio njihovu ponudu. Smatra da se ta odluka pokazala ispravnom.",
+          "izvor": "N1, Poslovni dnevnik"
+        },
+        {
+          "naslov": "Huawei kriv za krađu poslovnih tajni",
+          "tekst": "Porota u New Yorku proglasila je Huawei krivim za krađu američkih poslovnih tajni, uključujući izvorni kod. Oslobođen je optužbe za reketarenje.",
+          "izvor": "BBC, The Verge"
+        },
+        {
+          "naslov": "Ukratko",
+          "tekst": "Sheinu je prodaja u Europi pala 27 posto zbog novih nameta EU-a. Stellantis ukida noćnu smjenu u Sochauxu i otpušta 500 radnika. Amazon će od iduće godine u Britaniji prodavati automobile. Eni upozorava na moguće teškoće s opskrbom plinom ove zime. Slovenska Ilirika postala je prvi inozemni član Zagrebačke burze s udaljenim pristupom.",
+          "izvor": "Index, N1, Poslovni dnevnik"
+        }
+      ]
+    },
+    {
+      "naziv": "Tehnologija i znanost",
+      "clanci": [
+        {
+          "naslov": "GTA VI ruši rekorde, ali i otvara pitanja",
+          "tekst": "Grand Theft Auto VI prošlog je tjedna ispisao povijest zabavne industrije. U pozadini uspjeha pojavili su se navodi da su programeri dobili otkaz čim su skupili dovoljno članova za sindikat.",
+          "izvor": "N1"
+        },
+        {
+          "naslov": "Tidal izbacuje glazbu koju je napravila umjetna inteligencija",
+          "tekst": "Od 9. prosinca Tidal uklanja svu glazbu nastalu isključivo umjetnom inteligencijom.",
+          "izvor": "Index"
+        },
+        {
+          "naslov": "Ukratko",
+          "tekst": "Američki ured za financijski kriminal FinCEN istražuje kibernetički incident s neovlaštenim pristupom dijelu sustava. Meta uskoro u Britaniji lansira AI asistenta Muse. Uskoro stižu snimke izbliza asteroida koji je namjerno udaren radi testiranja obrane Zemlje. U Belgiji je otvorena najveća tvornica satelita u EU, kapaciteta 500 satelita godišnje.",
+          "izvor": "The Verge, BBC, Index"
+        }
+      ]
+    },
+    {
+      "naziv": "Sport",
+      "clanci": [
+        {
+          "naslov": "Liga prvaka: Perišić upisao povijest",
+          "tekst": "Real Madrid uvjerljivo je pobijedio PSV, a Ivan Perišić postao je najstariji igrač koji je zabio iz penala u Ligi prvaka. Martin Baturina asistirao je u pobjedi Coma, Lovro Majer skrivio je penal, a Borussia Dortmund Nike Kovača remizirala je kod Arsenala. Galatasaray je svladao Aston Villu, a Bodø/Glimt je u nadoknadi slomio LASK.",
+          "izvor": "Sportnet"
+        },
+        {
+          "naslov": "Mladost nakon 27 godina u Ligi prvaka",
+          "tekst": "Odbojkaši Mladosti izborili su grupnu fazu CEV Lige prvaka pobjedom 3:2 nad mađarskim prvakom Kaposvarom, nakon 117 minuta igre pred punim Domom odbojke.",
+          "izvor": "Sportnet"
+        },
+        {
+          "naslov": "Modrić ozlijeđen",
+          "tekst": "Luka Modrić ozlijedio se u pobjedi Milana nad Frosinoneom. Propušta europsko gostovanje u Grčkoj, a upitan je i za sljedeće prvenstveno kolo.",
+          "izvor": "Sportnet"
+        },
+        {
+          "naslov": "Ukratko",
+          "tekst": "Zverev je godinu završio kao broj 1 ATP ljestvice sa samo dva osvojena turnira, ali oba su Grand Slamovi. Rukometaši Sesveta pobijedili su u Prešovu 30:28 i u zadnjem kolu im je za prolaz dovoljan bod. Šef sudaca Layec ocijenio je da je penal za Hajduk bio opravdan, a da je Istra oštećena protiv Dinama. Hajduk u četvrtak u 21 sat igra protiv Sint-Truidena.",
+          "izvor": "Sportnet, Index, Jutarnji"
+        }
+      ]
+    }
+  ]
+}
