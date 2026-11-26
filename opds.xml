@@ -3,10 +3,22 @@
   <id>urn:uuid:24fd6140-46bc-5f0c-8599-61a1cd8e1ac5</id>
   <title>Novine</title>
   <subtitle>Dnevni pregled vijesti za Xteink</subtitle>
-  <updated>2026-11-25T15:14:42Z</updated>
+  <updated>2026-11-26T05:08:58Z</updated>
   <author><name>Jutarnji pregled</name></author>
   <link rel="self" href="https://zsimunovic.github.io/xteink-novine/opds.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
   <link rel="start" href="https://zsimunovic.github.io/xteink-novine/opds.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <entry>
+    <title>Novine – 26. studenoga 2026.</title>
+    <id>urn:uuid:3417b367-c955-57c0-8526-bda18261c3f1</id>
+    <updated>2026-11-26T05:00:00Z</updated>
+    <author><name>Jutarnji pregled</name></author>
+    <dc:language>hr</dc:language>
+    <dc:issued>2026-11-26</dc:issued>
+    <summary>Vlada u Sabor šalje izmjene Kaznenog zakona: uvodi se doživotni zatvor i kazneno djelo ekocida. • U Bruxellesu danas počinje izvanredno Europsko vijeće o proračunu EU-a za 2028.–2034. i financiranju Ukrajine. • SAD predlaže nove carine za 14 partnera, među njima EU i Kinu; prema USTR-u neće stupiti na snagu mjesecima.</summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://zsimunovic.github.io/xteink-novine/epub/Novine-2026-11-26.epub" type="application/epub+zip"/>
+    <link rel="http://opds-spec.org/image" href="https://zsimunovic.github.io/xteink-novine/naslovnice/Novine-2026-11-26.jpg" type="image/jpeg"/>
+    <link rel="http://opds-spec.org/image/thumbnail" href="https://zsimunovic.github.io/xteink-novine/naslovnice/Novine-2026-11-26.jpg" type="image/jpeg"/>
+  </entry>
   <entry>
     <title>Novine – 25. studenoga 2026.</title>
     <id>urn:uuid:c41c78b9-16c4-52d7-b1c2-6582b0877615</id>
