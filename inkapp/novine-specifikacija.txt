@@ -1,0 +1,103 @@
+NOVINE - APP SPECIFICATION (X4 Pro, 480x800 portrait)
+
+An e-paper news reader called "Novine" (Croatian: "Newspaper").
+All on-screen text must be in Croatian exactly as written in quotes below.
+
+==================================================================
+1. DATA
+==================================================================
+URL: https://zsimunovic.github.io/xteink-novine/najnovije.txt
+- GET request, append "?v=<epoch seconds>" (cache buster), timeout 30 s.
+- Keep Wi-Fi up for 3 minutes while the app is open; release it when the app is left.
+- Download automatically on open ONLY if there is no saved edition, or the saved
+  edition's date is older than today's date on the device. "Osvjezi" button forces it.
+- Save the response body to app storage as "izdanje.txt". Always draw from the saved
+  copy so the app works offline. If the new download is invalid, keep the old copy.
+
+File format: UTF-8, one record per line, TAG|value
+  D  date YYYY-MM-DD (required; reject the file without it)
+  N  edition title
+  R  period covered
+  V  weather for Zagreb (one sentence)
+  G  generated timestamp
+  U  one "Ukratko" headline (repeats, usually 5)
+  S  start of a section; value = section name
+  T  article title      (belongs to the latest S)
+  X  article text       (belongs to the latest T)
+  Z  "why it matters"   (optional)
+  I  sources            (optional)
+  K  closing quote / fun fact (optional)
+  A  author of K        (optional)
+Ignore unknown tags.
+
+Example:
+  D|2026-11-27
+  N|Jutarnji pregled
+  V|Zagreb danas: 1-5 °C, oblačno.
+  U|Prva kratka vijest.
+  S|Hrvatska
+  T|Naslov članka
+  X|Tekst članka u jednom retku.
+  Z|Zašto je to važno.
+  I|N1, Index
+  K|Zanimljivost za kraj.
+
+Replace characters the font may lack: en/em dash -> "-", « » „ “ ” -> ",
+‘ ’ -> ', … -> ..., non-breaking space -> space. Keep č ć đ š ž ° €.
+
+==================================================================
+2. HOME SCREEN
+==================================================================
+- Edition title (large font), below it the date in Croatian, e.g.
+  "petak, 27. studenoga 2026." then a horizontal line.
+  Weekdays: nedjelja ponedjeljak utorak srijeda četvrtak petak subota
+  Months (genitive): siječnja veljače ožujka travnja svibnja lipnja srpnja
+  kolovoza rujna listopada studenoga prosinca
+- Framed box with the weather sentence (small font, max 4 lines).
+- If the saved edition is older than today, a small line:
+  "Ovo je izdanje od 27.11. - dodirni Osvježi."
+- Tappable rows, 68 px high, thin line under each, ">" at the right end:
+  "Ukratko" with "5 vijesti" on the right,
+  one row per section with "<n> članaka" on the right,
+  "Za kraj" (only if K exists).
+- Status line above the buttons, e.g. "Preuzimam današnje novine...",
+  "Preuzeto u 07:05.", "Nema veze. Prikazujem spremljeno izdanje."
+- No edition at all: "Još nema preuzetog izdanja. Uključi Wi-Fi i dodirni Osvježi."
+- Two framed buttons at the bottom: "Osvježi" and "Zaklj. ekran: da" / "Zaklj. ekran: ne"
+  (toggles this app as the lock screen).
+
+==================================================================
+3. READING SCREEN (one per section)
+==================================================================
+- Header: framed "< Natrag" button, section name (large), page "2/5" at the right,
+  line below.
+- Text is word-wrapped on spaces and split into pages:
+  article title = large, article text = medium,
+  "Zašto je važno: ..." = small, slightly indented,
+  "Izvor: ..." = small, short centered line between articles.
+- "Ukratko" section: the weather sentence first, then each headline as "- text"
+  with a hanging indent.
+- "Za kraj": the K text, then "- <author>" indented to the right.
+- Bottom buttons: "< Prethodna" and "Sljedeća >". On the last page of a section the
+  right button reads "Dalje: <next section>" (or "Sljedeća rubrika >" if too long)
+  and opens the next section; after the last section return home.
+- Tap left third of the body = previous page; elsewhere in the body = next page.
+  Swipe left = next, swipe right = previous.
+  Side buttons: right/down = next, left/up = previous. Back = home screen.
+
+==================================================================
+4. LOCK SCREEN (when enabled)
+==================================================================
+- "NOVINE" (large) on the left, Croatian date on the right, double line below.
+- Weather sentence (small), a line, then the Ukratko headlines as "- text"
+  (medium) until the screen is full.
+- Footer: "Ostatak u aplikaciji Novine." or, if the saved edition is older than
+  today, "Izdanje od 27.11. - otvori Novine za novo."
+- Reads only the saved "izdanje.txt"; redraw every hour.
+
+==================================================================
+5. STYLE
+==================================================================
+- Black on white, thin lines and frames, no large filled black areas (ghosting).
+- Fonts: small / medium / large only.
+- Keep every screen well under 1000 draw commands.
