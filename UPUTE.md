@@ -34,14 +34,28 @@ Mijenjaj ovu datoteku ako želiš promijeniti što ulazi u novine.
      nije izvor činjenica: činjenice uzmi iz pravih izvora ili pretrage, a ne iz naslova.
 - **Vrijeme za Zagreb:** vrlo kratko, prvi redak u "Ukratko" (npr. "Zagreb danas: 2–7 °C,
   kiša poslijepodne. Upozorenje: jaka bura."). Ako nema upozorenja, ne spominji ih.
-- **Za kraj:** jedan kratki citat ili neobična zanimljivost (polje `zanimljivost`),
-  po mogućnosti povezana s nečim iz vijesti tog dana. Za citat navedi autora.
+- **Za kraj** (polje `zanimljivost`, 3–6 rečenica). Vrsta ovisi o danu u tjednu:
+  - ponedjeljak i petak: **Pojam dana** – jedan pojam iz današnjih vijesti objašnjen jednostavno
+    (npr. trezorski zapisi, ransomware, inflacija jezgre). Tekst počni s "Pojam dana – <pojam>: ".
+  - utorak i nedjelja: **Zanimljivost iz znanosti** – neobična, provjerljiva činjenica iz znanosti,
+    prirode ili tehnologije. Počni s "Zanimljivost: ".
+  - srijeda i subota: **Mozgalica** – kratka zagonetka ili logički zadatak koji se može riješiti
+    u glavi. Počni s "Mozgalica: ". Rješenje se NE daje isti dan.
+  - četvrtak: **Preporuka za čitanje** – jedna knjiga ili duži članak vezan uz neku temu dana,
+    s jednom rečenicom zašto. Počni s "Preporuka za čitanje: ". Preporuči samo djela za koja si
+    siguran da postoje (autor i naslov).
+  - **Dan nakon mozgalice** (četvrtak i nedjelja): na početak teksta dodaj "Rješenje jučerašnje
+    mozgalice: …" (pročitaj jučerašnje izdanje u `izdanja/`), pa tek onda današnji sadržaj.
+  Polje `autor` koristi samo ako navodiš citat.
 
 ## Ne stavljati
 
 - **MasterChef** – nikakve vijesti ni spomene (čitatelj ne želi spoilere). Ovo vrijedi i za
   "Ukratko" i za zanimljivost.
-- **Sport** – nema sportske rubrike ni sportskih vijesti.
+- **Sport** – nema sportske rubrike. Sportska vijest ulazi samo ako je od šireg javnog
+  značaja (npr. veliki uspjeh hrvatske reprezentacije, plasman na SP/EP, olimpijska medalja,
+  povijesni rekord ili događaj koji je izašao iz sportskih okvira) i tada ide u "Hrvatska" ili
+  "Svijet", najviše jedna dnevno. `skupi_vijesti.py` sport daje kao zaseban popis naslova.
 - **Lifestyle i savjeti** – recepti, zdravlje/prehrana, horoskop, moda, akcije i popusti u
   trgovinama, Black Friday.
 - Tračevi i celebrity vijesti samo ako su stvarno značajni; crnu kroniku samo ako je riječ o

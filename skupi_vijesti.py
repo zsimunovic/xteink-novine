@@ -23,9 +23,12 @@ ATOM = "{http://www.w3.org/2005/Atom}"
 # Riječi koje izbacuju vijest (naslov, opis ili URL). Usklađeno s UPUTE.md.
 IZBACI = re.compile(
     r"masterchef|master chef|horoskop|recept|black friday|black week|popust|sniženj|akcij[ia] u"
-    r"|/sport|/lifestyle|/horoskop|/recepti|/zdravlje|/fit|/moda|/ljepota",
+    r"|/lifestyle|/horoskop|/recepti|/zdravlje|/fit|/moda|/ljepota",
     re.I,
 )
+# Sport ne ide među obične vijesti, nego u kratak zaseban popis naslova (UPUTE: samo ako je od
+# šireg javnog značaja).
+SPORT = re.compile(r"/sport|sport", re.I)
 
 
 def get(url, timeout=20):
@@ -54,9 +57,10 @@ def datum(s):
 
 
 def izvor(naziv, url, od):
+    """Vrati (vijesti, sportski naslovi) iz jednog RSS/Atom izvora."""
     root = ET.fromstring(get(url))
     items = root.findall(".//item") or root.findall(f".//{ATOM}entry")
-    out = []
+    out, sport = [], []
     for it in items:
         def f(tag):
             return it.findtext(tag) or it.findtext(ATOM + tag) or ""
@@ -72,8 +76,11 @@ def izvor(naziv, url, od):
         opis = cisto(f("description") or f("summary"))[:350]
         if IZBACI.search(" ".join([naslov, opis, link, cats])):
             continue
+        if SPORT.search(link + " " + cats):
+            sport.append((d, naslov))
+            continue
         out.append((d, naslov, opis))
-    return out
+    return out, sport
 
 
 def vrijeme_zagreb():
@@ -149,9 +156,11 @@ def main():
     print()
 
     ukupno = 0
+    sport = []
     for naziv, url in CFG["izvori"].items():
         try:
-            vijesti = izvor(naziv, url, od)
+            vijesti, sp = izvor(naziv, url, od)
+            sport += [(d, n, naziv) for d, n in sp]
         except Exception as e:  # noqa: BLE001
             print(f"## {naziv}: GREŠKA ({e})\n")
             continue
@@ -161,6 +170,10 @@ def main():
             print(f"- [{t}] {n} :: {o}")
         print()
         ukupno += len(vijesti)
+    print("## Sport – samo naslovi (u novine samo ako je od šireg javnog značaja)")
+    for d, n, naziv in sport[:25]:
+        print(f"- {n} ({naziv})")
+    print()
     print("## Hacker News – najpopularnije IT priče (bodovi, komentari)")
     try:
         for bod, kom, n, link in hacker_news(od):
