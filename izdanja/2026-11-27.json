@@ -1,0 +1,124 @@
+{
+  "datum": "2026-11-27",
+  "naslov": "Jutarnji pregled",
+  "razdoblje": "Vijesti od 26. studenoga 2026.",
+  "vrijeme": "Zagreb danas: oblačno i hladno, oko 0–3 °C, moguć slab snijeg ili susnježica.",
+  "ukratko": [
+    "Izvanredni summit EU-a o proračunu 2028.–2034. i zajmu Ukrajini od 45 milijardi eura završio je bez dogovora; novi pokušaj 17. i 18. prosinca.",
+    "Plenković poručio Crnoj Gori: bez potvrde kopnene granice i Prevlake nema zatvaranja poglavlja 31.",
+    "Sabor raspravlja o slanju do 510 hrvatskih vojnika na istočno krilo NATO-a.",
+    "Zagrebačka burza prekinula niz od šest dana pada: Crobex porastao 0,72 posto, na 4.409 bodova.",
+    "OpenAI testira Private Inference, uslugu u kojoj ni sam OpenAI ne može čitati upite poslovnih korisnika."
+  ],
+  "rubrike": [
+    {
+      "naziv": "Hrvatska",
+      "clanci": [
+        {
+          "naslov": "Plenković Crnoj Gori: bez granice nema poglavlja 31",
+          "tekst": "Dolaskom na izvanredni summit EU-a u Bruxellesu premijer Andrej Plenković poručio je da Crna Gora neće moći zatvoriti pregovaračko poglavlje 31 (vanjska, sigurnosna i obrambena politika) dok se ne riješi pitanje razgraničenja na kopnu. Posebno je istaknuo Prevlaku i rekao da će Hrvatska svako dovođenje u pitanje kopnene granice pročitati kao teritorijalne pretenzije. Crnogorski mediji ranije su pisali da u Podgorici očekuju da bi glavna prepreka njihovu pristupnom ugovoru mogla biti ratifikacija u Hrvatskom saboru.",
+          "zasto": "Hrvatska kao članica EU-a ima pravo veta u pristupnim pregovorima, pa otvorena pitanja s Crnom Gorom izravno utječu na njezin put u Uniju.",
+          "izvor": "Narodno.hr, Dnevnik.hr, Dnevno.hr"
+        },
+        {
+          "naslov": "Do 510 vojnika na istok NATO-a",
+          "tekst": "Sabor je dobio na raspravu odluku o upućivanju do 510 pripadnika Oružanih snaga na istočno krilo NATO-a. Ista odluka predviđa i do 200 vojnika za KFOR na Kosovu, do 35 pripadnika i jedan brod Hrvatske ratne mornarice za operaciju Sea Guardian na Sredozemlju, devet pripadnika u Indiju i Pakistan te troje na Cipar. Rasprava je predviđena za petak, 27. studenoga.",
+          "zasto": "Riječ je o jednom od većih raspoređivanja hrvatskih vojnika u inozemstvu.",
+          "izvor": "Dnevnik.hr, Rijeka Danas"
+        },
+        {
+          "naslov": "Ustavni sud: bez dogovora nema izbora sudaca",
+          "tekst": "Predsjednik saborskog Odbora za Ustav Ivan Malenica (HDZ) predložio je četiri kandidata za tri upražnjena mjesta sudaca Ustavnog suda. Za izbor je potreban dogovor vladajuće većine i oporbe, a bez njega izbor neće biti održan. Oporba HDZ optužuje za politički utjecaj na sud.",
+          "izvor": "Hrvatski glasnik"
+        },
+        {
+          "naslov": "Ukratko",
+          "tekst": "Vlada je predložila nova kadrovska rješenja u šest državnih tvrtki, s privremenim mandatima do šest mjeseci. Vedran Markota imenovan je glavnim tajnikom Ministarstva poljoprivrede, šumarstva i ribarstva. Plenković je u Saboru, govoreći o ostavkama ministara, rekao da su u više od deset godina iz njegove tri vlade zbog afera otišla samo četiri člana.",
+          "izvor": "Narodno.hr, Tportal, Dijalog.hr"
+        }
+      ]
+    },
+    {
+      "naziv": "Svijet",
+      "clanci": [
+        {
+          "naslov": "Summit EU-a bez dogovora o proračunu",
+          "tekst": "Izvanredni sastanak čelnika EU-a u Bruxellesu nije donio dogovor o sedmogodišnjem proračunu za razdoblje 2028.–2034., vrijednom gotovo 1,6 bilijuna eura, ni o zajmu Ukrajini od 45 milijardi eura, koji bi se vraćao tek kad Rusija plati ratnu odštetu. Njemački kancelar Friedrich Merz povezao je proračun s potporom Ukrajini, dok mađarski premijer Péter Magyar odbija takvo povezivanje i rekao je da šanse za dogovor na summitu vidi kao „nula”. Predsjednik Europskog vijeća António Costa trebao bi u idućim tjednima iznijeti novi prijedlog, a čelnici se nadaju dogovoru 17. i 18. prosinca. Plenković je rekao da je neto pozicija Hrvatske u pregovorima porasla s oko 6 na oko 7 milijardi eura.",
+          "zasto": "O ovom proračunu ovise europski fondovi za Hrvatsku od 2028. godine.",
+          "izvor": "Euronews, Al Jazeera, Washington Post, ZG Express"
+        },
+        {
+          "naslov": "Ukrajina: pregovori zapeli na pitanju teritorija",
+          "tekst": "Američki izaslanik Jared Kushner rekao je da su mirovni pregovori zapeli na teritorijalnom pitanju. Studenska runda u Abu Dhabiju donijela je dogovor o razmjeni zarobljenika, ali ne i pomak prema kraju rata; do kraja godine očekuje se nova razmjena. Rusija ne odustaje od svojih zahtjeva, među kojima su teritorijalni ustupci, odustajanje Ukrajine od NATO-a i zabrana stranih mirovnih snaga. Kijev je u noći na 26. studenoga napadnut balističkim projektilima.",
+          "izvor": "Ukraine Today, The Hill, Reuters"
+        },
+        {
+          "naslov": "Bliski istok: Gaza, Kuvajt, Iran",
+          "tekst": "Zdravstvene vlasti u Gazi javljaju da je u izraelskim napadima ubijeno deset Palestinaca, više od godinu dana nakon primirja Izraela i Hamasa. Kuvajt je drugi put ovog mjeseca oborio dronove iz Irana, a u napadu su poginula dvojica talijanskih inženjera tvrtke Rheinmetall. Glasnogovornik izraelske vojske rekao je da je Izrael spreman djelovati protiv Irana „silom u svakom trenutku, i samostalno, bez Amerikanaca”.",
+          "izvor": "AP/US News, Il Sole 24 Ore, Middle East Eye"
+        },
+        {
+          "naslov": "Ukratko",
+          "tekst": "Iranska agencija Tasnim javlja da su dva tankera u Hormuškom tjesnacu zahvaćena požarom nakon udara u morske mine. Prijetnje novim američkim carinama pojačavaju pritisak na trgovinske partnere da potpišu sporazume; prema američkom dužnosniku, carine ne bi stupile na snagu prije siječnja.",
+          "izvor": "Middle East Eye, CNBC, Washington Post"
+        }
+      ]
+    },
+    {
+      "naziv": "Ekonomija i financije",
+      "clanci": [
+        {
+          "naslov": "Burza prekinula niz od šest dana pada",
+          "tekst": "Crobex je u četvrtak porastao 0,72 posto, na 4.409 bodova, a Crobex10 1,13 posto, na 2.912 bodova, nakon šest uzastopnih dana pada. Redovni promet dionicama iznosio je 1,9 milijuna eura. Najveći dobitnik dana bila je Alpha Adriatica, s rastom od oko 20 posto.",
+          "izvor": "SEEbiz, Financije.hr"
+        },
+        {
+          "naslov": "Novi čelnik ECB-a i odluka o kamatama",
+          "tekst": "Plenković je potvrdio politički dogovor da Pablo Hernández de Cos bude novi predsjednik Europske središnje banke, nakon Christine Lagarde, koja odlazi u veljači 2027. ECB posljednji put ove godine odlučuje o kamatama 17. prosinca; depozitna stopa sada je 2,50 posto, a Lagarde je rekla da će odluka o mogućem povećanju ovisiti o pokazateljima do tada.",
+          "zasto": "Eventualno podizanje kamata ECB-a poskupljuje kredite s promjenjivom kamatom, ali povećava prinose na štednju i trezorske zapise.",
+          "izvor": "Kamenjar, CNBC, Global Banking & Finance"
+        },
+        {
+          "naslov": "Američke carine: od 15 posto za EU do 35 posto za Vijetnam",
+          "tekst": "Predložene nove američke carine za 14 partnera počinju od 15 posto za Europsku uniju, Južnu Koreju, Švicarsku i Tajvan, a sežu do 35 posto za Vijetnam. Za Kinu je predviđeno 20 posto, što administracija opisuje kao „dogovornu stopu” koja može rasti ovisno o pregovorima. Carine prije stupanja na snagu prolaze javna saslušanja i razdoblje komentara; kinesko ministarstvo trgovine odbacilo je njihovo obrazloženje.",
+          "izvor": "Al Jazeera, NBC News, Yahoo Finance"
+        },
+        {
+          "naslov": "Ukratko",
+          "tekst": "Inflacija u Hrvatskoj u listopadu je prema prvoj procjeni DZS-a iznosila 4,9 posto (indeks potrošačkih cijena), a prema usklađenom indeksu 4,4 posto, uz 4,0 posto u europodručju.",
+          "izvor": "DZS, Eurostat"
+        }
+      ]
+    },
+    {
+      "naziv": "Tehnologija i AI",
+      "clanci": [
+        {
+          "naslov": "OpenAI testira „privatno” izvršavanje upita",
+          "tekst": "Sam Altman objavio je da OpenAI s malom skupinom poslovnih korisnika testira Private Inference, dio ponude OpenAI Private Intelligence. Upiti i odgovori obrađuju se u zaštićenim (confidential computing) okruženjima, tako da im OpenAI tijekom obrade ne može pristupiti. Tvrtka nije objavila koje modele usluga podržava, koliko će koštati ni kada će biti općenito dostupna.",
+          "zasto": "Tvrtke koje zbog povjerljivosti podataka izbjegavaju AI u oblaku mogle bi dobiti način da ga sigurnije koriste.",
+          "izvor": "Newsquawk, Unite.AI"
+        },
+        {
+          "naslov": "Kobo: CloudLibrary i Kobo Plus u Sloveniji",
+          "tekst": "Kobo na svoje novije e-čitače dodaje pristup knjižnicama preko servisa CloudLibrary; potreban je softver 4.38 ili noviji, a za Libra Colour, Clara Colour i Clara BW verzija 4.46 ili novija. Pretplata Kobo Plus proširena je na Estoniju, Litvu i Sloveniju, a najavljeno je i ažuriranje s podrškom za više knjižničnih iskaznica u knjižnicama koje koriste Libby.",
+          "izvor": "Good e-Reader"
+        },
+        {
+          "naslov": "Novi Kindle Colorsoft",
+          "tekst": "Good e-Reader objavio je prvi pogled na novi Kindle Colorsoft, tanji i lakši od prethodnika, sa sedmoinčnim zaslonom u boji koji oponaša papir.",
+          "izvor": "Good e-Reader"
+        },
+        {
+          "naslov": "Ukratko",
+          "tekst": "Prema EU-ovu Aktu o umjetnoj inteligenciji chatbotovi moraju korisnicima jasno reći da su AI, a za kršenje prijete kazne do 15 milijuna eura ili 3 posto globalnog prometa. Rok za pravila o visokorizičnim AI sustavima pomaknut je s kolovoza 2026. na prosinac 2027.",
+          "izvor": "Al Jazeera, The Parliament Magazine"
+        }
+      ]
+    }
+  ],
+  "zanimljivost": {
+    "tekst": "Ako želiš ići brzo, idi sam. Ako želiš ići daleko, idi zajedno.",
+    "autor": "afrička poslovica"
+  }
+}

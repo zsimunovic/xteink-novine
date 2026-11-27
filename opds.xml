@@ -3,10 +3,22 @@
   <id>urn:uuid:24fd6140-46bc-5f0c-8599-61a1cd8e1ac5</id>
   <title>Novine</title>
   <subtitle>Dnevni pregled vijesti za Xteink</subtitle>
-  <updated>2026-11-26T05:08:58Z</updated>
+  <updated>2026-11-27T05:12:03Z</updated>
   <author><name>Jutarnji pregled</name></author>
   <link rel="self" href="https://zsimunovic.github.io/xteink-novine/opds.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
   <link rel="start" href="https://zsimunovic.github.io/xteink-novine/opds.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <entry>
+    <title>Novine – 27. studenoga 2026.</title>
+    <id>urn:uuid:0704b1bf-6c60-5dd2-8951-877ed04994b0</id>
+    <updated>2026-11-27T05:00:00Z</updated>
+    <author><name>Jutarnji pregled</name></author>
+    <dc:language>hr</dc:language>
+    <dc:issued>2026-11-27</dc:issued>
+    <summary>Izvanredni summit EU-a o proračunu 2028.–2034. i zajmu Ukrajini od 45 milijardi eura završio je bez dogovora; novi pokušaj 17. i 18. prosinca. • Plenković poručio Crnoj Gori: bez potvrde kopnene granice i Prevlake nema zatvaranja poglavlja 31. • Sabor raspravlja o slanju do 510 hrvatskih vojnika na istočno krilo NATO-a.</summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://zsimunovic.github.io/xteink-novine/epub/Novine-2026-11-27.epub" type="application/epub+zip"/>
+    <link rel="http://opds-spec.org/image" href="https://zsimunovic.github.io/xteink-novine/naslovnice/Novine-2026-11-27.jpg" type="image/jpeg"/>
+    <link rel="http://opds-spec.org/image/thumbnail" href="https://zsimunovic.github.io/xteink-novine/naslovnice/Novine-2026-11-27.jpg" type="image/jpeg"/>
+  </entry>
   <entry>
     <title>Novine – 26. studenoga 2026.</title>
     <id>urn:uuid:3417b367-c955-57c0-8526-bda18261c3f1</id>

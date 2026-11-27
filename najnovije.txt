@@ -1,76 +1,69 @@
-D|2026-11-26
+D|2026-11-27
 N|Jutarnji pregled
-R|Vijesti od 25. studenoga 2026.
-V|Zagreb danas: 2–6 °C, kiša tijekom cijelog dana (oko 18 mm), ujutro moguća susnježica, slab sjeverni vjetar.
-G|2026-11-26T05:08:58Z
-U|Vlada u Sabor šalje izmjene Kaznenog zakona: uvodi se doživotni zatvor i kazneno djelo ekocida.
-U|U Bruxellesu danas počinje izvanredno Europsko vijeće o proračunu EU-a za 2028.–2034. i financiranju Ukrajine.
-U|SAD predlaže nove carine za 14 partnera, među njima EU i Kinu; prema USTR-u neće stupiti na snagu mjesecima.
-U|Zagrebačka burza šesti dan zaredom u minusu, Crobex na 4.378 bodova.
-U|Tržišta gotovo sigurno očekuju da ECB u prosincu podigne kamate zbog inflacije od 4 posto.
+R|Vijesti od 26. studenoga 2026.
+V|Zagreb danas: oblačno i hladno, oko 0–3 °C, moguć slab snijeg ili susnježica.
+G|2026-11-27T05:12:03Z
+U|Izvanredni summit EU-a o proračunu 2028.–2034. i zajmu Ukrajini od 45 milijardi eura završio je bez dogovora; novi pokušaj 17. i 18. prosinca.
+U|Plenković poručio Crnoj Gori: bez potvrde kopnene granice i Prevlake nema zatvaranja poglavlja 31.
+U|Sabor raspravlja o slanju do 510 hrvatskih vojnika na istočno krilo NATO-a.
+U|Zagrebačka burza prekinula niz od šest dana pada: Crobex porastao 0,72 posto, na 4.409 bodova.
+U|OpenAI testira Private Inference, uslugu u kojoj ni sam OpenAI ne može čitati upite poslovnih korisnika.
 S|Hrvatska
-T|Doživotni zatvor i ekocid idu u drugo čitanje
-X|Vlada je na sjednici u srijedu u drugo saborsko čitanje uputila konačne prijedloge izmjena Kaznenog zakona i Zakona o kaznenom postupku. Paket uvodi kaznu doživotnog zatvora za najteža kaznena djela te novo kazneno djelo ekocida, teškog zločina protiv okoliša. Iz konačnog prijedloga ispalo je planirano udvostručenje novčane kazne za pravne osobe s uvjetnom osudom, s 20.000 na 40.000 eura.
-Z|Riječ je o jednoj od najvećih promjena kaznenog zakonodavstva posljednjih godina; nakon drugog čitanja Sabor može izglasati konačni tekst.
-I|HRT/Hina, Prigorski.hr
-T|Selak Raspudić traži istražno povjerenstvo za Vinogradsku
-X|Zastupnica Marija Selak Raspudić predložila je osnivanje saborskog istražnog povjerenstva koje bi ispitalo događaje u KBC-u Sestre milosrdnice, posebno na Klinici za radiologiju. Prijedlog dolazi nakon što je Upravno vijeće bolnice u srijedu jednoglasno poništilo natječaj na kojem je Dijana Zadravec izabrana za predstojnicu radiologije. Slijedi imenovanje vršitelja dužnosti, što je u nadležnosti ravnatelja.
-I|Novi list, Index, Net.hr
-T|Mirovine: ukida se smanjenje od 8 do 20 posto
-X|Izmjenama Zakona o vatrogastvu, upućenima u hitni postupak, potpuno se ukida dugogodišnje umanjenje mirovina od 8 do 20 posto. Mjera bi 2027. obuhvatila oko 660 korisnika, čija bi se primanja povećala prosječno za oko 155 eura. Isto umanjenje ukida se i umirovljenicima po Zakonu o kazalištima.
-I|Dnevnik.hr, Hina
+T|Plenković Crnoj Gori: bez granice nema poglavlja 31
+X|Dolaskom na izvanredni summit EU-a u Bruxellesu premijer Andrej Plenković poručio je da Crna Gora neće moći zatvoriti pregovaračko poglavlje 31 (vanjska, sigurnosna i obrambena politika) dok se ne riješi pitanje razgraničenja na kopnu. Posebno je istaknuo Prevlaku i rekao da će Hrvatska svako dovođenje u pitanje kopnene granice pročitati kao teritorijalne pretenzije. Crnogorski mediji ranije su pisali da u Podgorici očekuju da bi glavna prepreka njihovu pristupnom ugovoru mogla biti ratifikacija u Hrvatskom saboru.
+Z|Hrvatska kao članica EU-a ima pravo veta u pristupnim pregovorima, pa otvorena pitanja s Crnom Gorom izravno utječu na njezin put u Uniju.
+I|Narodno.hr, Dnevnik.hr, Dnevno.hr
+T|Do 510 vojnika na istok NATO-a
+X|Sabor je dobio na raspravu odluku o upućivanju do 510 pripadnika Oružanih snaga na istočno krilo NATO-a. Ista odluka predviđa i do 200 vojnika za KFOR na Kosovu, do 35 pripadnika i jedan brod Hrvatske ratne mornarice za operaciju Sea Guardian na Sredozemlju, devet pripadnika u Indiju i Pakistan te troje na Cipar. Rasprava je predviđena za petak, 27. studenoga.
+Z|Riječ je o jednom od većih raspoređivanja hrvatskih vojnika u inozemstvu.
+I|Dnevnik.hr, Rijeka Danas
+T|Ustavni sud: bez dogovora nema izbora sudaca
+X|Predsjednik saborskog Odbora za Ustav Ivan Malenica (HDZ) predložio je četiri kandidata za tri upražnjena mjesta sudaca Ustavnog suda. Za izbor je potreban dogovor vladajuće većine i oporbe, a bez njega izbor neće biti održan. Oporba HDZ optužuje za politički utjecaj na sud.
+I|Hrvatski glasnik
 T|Ukratko
-X|Na sjednici Vlade bili su i program potpore pčelarima nakon pomora pčela te dugoročno kreditno zaduženje HEP-a. Bivša potencijalna predsjednička kandidatkinja Aurora Weiss javno je ustvrdila da ju je seksualno zlostavljao bivši visoki hrvatski dužnosnik dok je bio na funkciji; kaže da je njezina ranija prijava odbačena. Vinkovci su počeli isplaćivati božićnice umirovljenicima i primateljima inkluzivnog dodatka.
-I|Dnevno.hr, Dnevnik.hr, HRT
+X|Vlada je predložila nova kadrovska rješenja u šest državnih tvrtki, s privremenim mandatima do šest mjeseci. Vedran Markota imenovan je glavnim tajnikom Ministarstva poljoprivrede, šumarstva i ribarstva. Plenković je u Saboru, govoreći o ostavkama ministara, rekao da su u više od deset godina iz njegove tri vlade zbog afera otišla samo četiri člana.
+I|Narodno.hr, Tportal, Dijalog.hr
 S|Svijet
-T|Izvanredni summit EU-a o proračunu
-X|Čelnici država članica sastaju se danas i sutra u Bruxellesu na izvanrednom Europskom vijeću. Na dnevnom redu su sljedeći višegodišnji financijski okvir (proračun EU-a za 2028.–2034.) i potrebe Ukrajine za financiranjem 2027. Sastanak počinje Euro summitom uz predsjednicu ECB-a Christine Lagarde. Predsjednik Europskog vijeća António Costa u pozivnom pismu traži dogovor o proračunu uz kontrolu doprinosa država članica. Summitu prisustvuje i premijer Plenković.
-Z|Višegodišnji proračun određuje koliko će EU novca Hrvatska dobivati u sljedećem razdoblju.
-I|Consilium, Eunews, Vlada RH
-T|SAD predlaže nove carine za 14 partnera
-X|Trumpova administracija predložila je nove carine prema članku 301. za 14 trgovinskih partnera, uključujući Kinu, EU i Indiju. Najviša predložena stopa je 20 posto za Kinu, koja bi se dodala postojećim carinama. Za Indiju se spominje 17 posto, ali samo ako pregovori završe dogovorom. Trgovinski predstavnik Jamieson Greer rekao je da carine vjerojatno neće stupiti na snagu mjesecima. Carine se vide kao pokušaj obnove globalnih carina koje je Vrhovni sud SAD-a srušio u veljači; očekuju se pravni izazovi.
-Z|Za europske izvoznike ishod ovisi o tome hoće li SAD poštovati dosadašnji dogovor o carini od 15 posto.
-I|CNBC, Washington Post, Al Jazeera, RTÉ
-T|Ukrajina: Zelenski traži pregovore u četiri strane
-X|Volodimir Zelenski pozvao je na što skorije pregovore Ukrajine, Rusije, SAD-a i europskih čelnika, po mogućnosti prije Božića. Glasnogovornik Kremlja Dmitrij Peskov kaže da će sastanak biti uskoro, ali datum nije određen; Rusija se protivi europskom sudjelovanju. Prema Financial Timesu, Washington želi dogovor do početka siječnja 2027. Putin je u međuvremenu zaprijetio odmazdom za ukrajinske napade na ruska energetska postrojenja, a od početka studenoga pogođeno je najmanje 14 rafinerija.
-I|France 24, NV, Anadolu
-T|Napetosti na Bliskom istoku
-X|Iranska Revolucionarna garda objavila je da su dva tankera u Hormuškom tjesnacu naletjela na morske mine dok su plovila, kako tvrdi, neodobrenom rutom, te da su se zapalila. Jemenski Hutiji nastavljaju napade na Saudijsku Arabiju, a koalicija pod saudijskim vodstvom tvrdi da je presrela četiri drona iznad Istočne pokrajine. U Gazi je, prema ministarstvu unutarnjih poslova pod Hamasom, izraelska vojska ubila Mohammada Abueloufa, šefa Hamasove unutarnje sigurnosti, zajedno sa suprugom i dvoje djece.
-Z|Napadi na tankere i rafinerije u Zaljevu izravno utječu na cijene nafte, a time i goriva.
-I|Anadolu, Havana Times, Just Security
+T|Summit EU-a bez dogovora o proračunu
+X|Izvanredni sastanak čelnika EU-a u Bruxellesu nije donio dogovor o sedmogodišnjem proračunu za razdoblje 2028.–2034., vrijednom gotovo 1,6 bilijuna eura, ni o zajmu Ukrajini od 45 milijardi eura, koji bi se vraćao tek kad Rusija plati ratnu odštetu. Njemački kancelar Friedrich Merz povezao je proračun s potporom Ukrajini, dok mađarski premijer Péter Magyar odbija takvo povezivanje i rekao je da šanse za dogovor na summitu vidi kao „nula”. Predsjednik Europskog vijeća António Costa trebao bi u idućim tjednima iznijeti novi prijedlog, a čelnici se nadaju dogovoru 17. i 18. prosinca. Plenković je rekao da je neto pozicija Hrvatske u pregovorima porasla s oko 6 na oko 7 milijardi eura.
+Z|O ovom proračunu ovise europski fondovi za Hrvatsku od 2028. godine.
+I|Euronews, Al Jazeera, Washington Post, ZG Express
+T|Ukrajina: pregovori zapeli na pitanju teritorija
+X|Američki izaslanik Jared Kushner rekao je da su mirovni pregovori zapeli na teritorijalnom pitanju. Studenska runda u Abu Dhabiju donijela je dogovor o razmjeni zarobljenika, ali ne i pomak prema kraju rata; do kraja godine očekuje se nova razmjena. Rusija ne odustaje od svojih zahtjeva, među kojima su teritorijalni ustupci, odustajanje Ukrajine od NATO-a i zabrana stranih mirovnih snaga. Kijev je u noći na 26. studenoga napadnut balističkim projektilima.
+I|Ukraine Today, The Hill, Reuters
+T|Bliski istok: Gaza, Kuvajt, Iran
+X|Zdravstvene vlasti u Gazi javljaju da je u izraelskim napadima ubijeno deset Palestinaca, više od godinu dana nakon primirja Izraela i Hamasa. Kuvajt je drugi put ovog mjeseca oborio dronove iz Irana, a u napadu su poginula dvojica talijanskih inženjera tvrtke Rheinmetall. Glasnogovornik izraelske vojske rekao je da je Izrael spreman djelovati protiv Irana „silom u svakom trenutku, i samostalno, bez Amerikanaca”.
+I|AP/US News, Il Sole 24 Ore, Middle East Eye
 T|Ukratko
-X|Svjetski program za hranu upozorava da ratovi u Ukrajini i na Bliskom istoku ugrožavaju pomoć u hrani za milijune ljudi. Libijska nacionalna armija prijeti odmazdom Ukrajini nakon što je napad dronom na ruski ratni brod u istočnoj Libiji ubio dvojicu libijskih časnika. WHO je Kubi dodijelio 2 milijuna dolara za cijepljenje i bolničku opremu.
-I|Havana Times, Anadolu
+X|Iranska agencija Tasnim javlja da su dva tankera u Hormuškom tjesnacu zahvaćena požarom nakon udara u morske mine. Prijetnje novim američkim carinama pojačavaju pritisak na trgovinske partnere da potpišu sporazume; prema američkom dužnosniku, carine ne bi stupile na snagu prije siječnja.
+I|Middle East Eye, CNBC, Washington Post
 S|Ekonomija i financije
-T|Zagrebačka burza šesti dan u padu
-X|Crobex je u srijedu pao 0,39 posto, na 4.378 bodova, a Crobex10 0,43 posto, na 2.879 bodova. To je šesti uzastopni dan pada indeksa. U fokusu ulagača bile su dionice Končara i Adrisa; redovna dionica Adrisa izgubila je više od četiri posto. Promet je bio osjetno manji nego dan ranije.
-I|Glas Istre, hrportfolio.hr
-T|ECB pred podizanjem kamata
-X|Inflacija u europodručju u listopadu je dosegnula 4 posto, najviše u otprilike tri godine, a energenti su poskupjeli 20,8 posto. Tržišta prema FXStreetu sada s 96,4 posto vjerojatnosti očekuju povećanje kamatnih stopa na prosinačkom sastanku ECB-a. Članovi Upravnog vijeća Olaf Sleijpen i Gediminas Šimkus poručuju da je smjer za prosinac jasan, a Martin Kocher očekuje da će ECB podići prognoze inflacije.
-Z|Više kamate ECB-a znače skuplje kredite s promjenjivom kamatom, ali i bolje prinose na štednju i trezorske zapise.
-I|CNBC, FXStreet, GuruFocus
-T|Dionice Anthropica pale prema cijeni iz IPO-a
-X|Anthropic je 18. studenoga izašao na Nasdaq po cijeni od 83 dolara po dionici (oznaka ANT), a prvog dana trgovanja dionica je otvorena na 111,50 dolara. U širem padu tehnoloških dionica, uz Nasdaq u zoni korekcije, cijena se vratila blizu one iz ponude. Ulagači preispituju isplativost AI kompanija, a Quartz piše da dio tvrtki dio poslova s Claudea seli na jeftinije, besplatne modele.
-I|Anthropic, Forbes, Investing News, Quartz
+T|Burza prekinula niz od šest dana pada
+X|Crobex je u četvrtak porastao 0,72 posto, na 4.409 bodova, a Crobex10 1,13 posto, na 2.912 bodova, nakon šest uzastopnih dana pada. Redovni promet dionicama iznosio je 1,9 milijuna eura. Najveći dobitnik dana bila je Alpha Adriatica, s rastom od oko 20 posto.
+I|SEEbiz, Financije.hr
+T|Novi čelnik ECB-a i odluka o kamatama
+X|Plenković je potvrdio politički dogovor da Pablo Hernández de Cos bude novi predsjednik Europske središnje banke, nakon Christine Lagarde, koja odlazi u veljači 2027. ECB posljednji put ove godine odlučuje o kamatama 17. prosinca; depozitna stopa sada je 2,50 posto, a Lagarde je rekla da će odluka o mogućem povećanju ovisiti o pokazateljima do tada.
+Z|Eventualno podizanje kamata ECB-a poskupljuje kredite s promjenjivom kamatom, ali povećava prinose na štednju i trezorske zapise.
+I|Kamenjar, CNBC, Global Banking & Finance
+T|Američke carine: od 15 posto za EU do 35 posto za Vijetnam
+X|Predložene nove američke carine za 14 partnera počinju od 15 posto za Europsku uniju, Južnu Koreju, Švicarsku i Tajvan, a sežu do 35 posto za Vijetnam. Za Kinu je predviđeno 20 posto, što administracija opisuje kao „dogovornu stopu” koja može rasti ovisno o pregovorima. Carine prije stupanja na snagu prolaze javna saslušanja i razdoblje komentara; kinesko ministarstvo trgovine odbacilo je njihovo obrazloženje.
+I|Al Jazeera, NBC News, Yahoo Finance
 T|Ukratko
-X|Euro se u srijedu kretao oko 1,095 dolara uoči objave američkih podataka o BDP-u i inflaciji (PCE). Prema najavi Vlade, režim određivanja cijena goriva koji je stupio na snagu 25. studenoga vrijedi do 30. studenoga.
-I|FXStreet, Net.hr
+X|Inflacija u Hrvatskoj u listopadu je prema prvoj procjeni DZS-a iznosila 4,9 posto (indeks potrošačkih cijena), a prema usklađenom indeksu 4,4 posto, uz 4,0 posto u europodručju.
+I|DZS, Eurostat
 S|Tehnologija i AI
-T|Zabrinutost u OpenAI-ju i Anthropicu
-X|Axios je, pozivajući se na više od dvadeset izvora, objavio da su zaposlenici OpenAI-ja i Anthropica zabrinuti mogu li se njihovi najnapredniji neobjavljeni modeli sigurno pustiti u javnost. Glavni znanstvenik OpenAI-ja Jakub Pachocki ranije je objavio rad u kojem predlaže zajedničko industrijsko „ograničenje brzine” napretka umjetne inteligencije.
-Z|Ako vodeći laboratoriji uspore izdavanja, novi modeli u alatima poput Claudea i ChatGPT-a mogli bi stizati sporije i postupnije.
-I|Axios preko Digitimesa, note.com
-T|Google: novi test za AI i matematički radovi
-X|Google DeepMind objavio je na Kaggleu „Humanity's First Exam”, test pouzdanosti velikih jezičnih modela. Google je objavio i šest matematičkih radova koje je generirao njegov višeagentni sustav Cogentic, pokretan modelom Gemini 4. Gemini dobiva i besplatnu funkciju Tasks za samostalno obavljanje zadataka, a s tvrtkom Blue Origin Google surađuje na projektu Suncatcher, pokusu sa solarnim podatkovnim centrima u svemiru.
-I|The Neuron, Emergent, Investing News
-T|Microsoft licencira težine svojih AI modela
-X|Na konferenciji Ignite Microsoft je predstavio nove AI modele i najavio da će korisnicima licencirati njihove težine kako bi mogli raditi vlastite inačice. Copilot u Windowsima 11 dobiva mogućnost upravljanja lokalnim datotekama i rješavanja problema s računalom običnim jezikom.
-I|Investing News
-T|E-čitači: kraj podrške za stare Kindleove
-X|Amazon 31. prosinca 2026. završava službenu podršku za Kindle i Kindle Paperwhite 10. generacije. Korisnici novih modela javljaju da se stražnja obloga Kindlea i Paperwhitea odvaja već pri laganom pritisku ili vađenju iz futrole. Početkom studenoga izašao je Vivlio One-O, ograničeno blagdansko izdanje nasljednika čitača Vivlio One iz 2025.
-I|Good e-Reader, The eBook Reader
+T|OpenAI testira „privatno” izvršavanje upita
+X|Sam Altman objavio je da OpenAI s malom skupinom poslovnih korisnika testira Private Inference, dio ponude OpenAI Private Intelligence. Upiti i odgovori obrađuju se u zaštićenim (confidential computing) okruženjima, tako da im OpenAI tijekom obrade ne može pristupiti. Tvrtka nije objavila koje modele usluga podržava, koliko će koštati ni kada će biti općenito dostupna.
+Z|Tvrtke koje zbog povjerljivosti podataka izbjegavaju AI u oblaku mogle bi dobiti način da ga sigurnije koriste.
+I|Newsquawk, Unite.AI
+T|Kobo: CloudLibrary i Kobo Plus u Sloveniji
+X|Kobo na svoje novije e-čitače dodaje pristup knjižnicama preko servisa CloudLibrary; potreban je softver 4.38 ili noviji, a za Libra Colour, Clara Colour i Clara BW verzija 4.46 ili novija. Pretplata Kobo Plus proširena je na Estoniju, Litvu i Sloveniju, a najavljeno je i ažuriranje s podrškom za više knjižničnih iskaznica u knjižnicama koje koriste Libby.
+I|Good e-Reader
+T|Novi Kindle Colorsoft
+X|Good e-Reader objavio je prvi pogled na novi Kindle Colorsoft, tanji i lakši od prethodnika, sa sedmoinčnim zaslonom u boji koji oponaša papir.
+I|Good e-Reader
 T|Ukratko
-X|Prve značajke Apple Intelligence za korisnike u Kini testiraju se u beta inačici iOS-a 27.3, a Apple je potvrdio javno uvođenje u prosincu. Googleov AI Mode sada može čitati podatke iz Google Walleta, ali ne može prebacivati novac ni upravljati računima.
-I|MacRumors, The Neuron
-K|Europa će se kovati u krizama i bit će zbroj rješenja usvojenih za te krize.
-A|Jean Monnet
+X|Prema EU-ovu Aktu o umjetnoj inteligenciji chatbotovi moraju korisnicima jasno reći da su AI, a za kršenje prijete kazne do 15 milijuna eura ili 3 posto globalnog prometa. Rok za pravila o visokorizičnim AI sustavima pomaknut je s kolovoza 2026. na prosinac 2027.
+I|Al Jazeera, The Parliament Magazine
+K|Ako želiš ići brzo, idi sam. Ako želiš ići daleko, idi zajedno.
+A|afrička poslovica
