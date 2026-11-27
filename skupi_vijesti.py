@@ -114,6 +114,24 @@ def upozorenja():
     return sorted(out)
 
 
+def hacker_news(od, min_bodova=100, koliko=25):
+    """Najpopularnije IT priče na Hacker Newsu u razdoblju (signal popularnosti, ne izvor činjenica)."""
+    url = ("https://hn.algolia.com/api/v1/search?tags=story&hitsPerPage=100"
+           f"&numericFilters=created_at_i>{int(od.timestamp())},points>{min_bodova}")
+    hits = json.loads(get(url)).get("hits", [])
+    hits.sort(key=lambda h: h.get("points") or 0, reverse=True)
+    out = []
+    for h in hits:
+        naslov = cisto(h.get("title"))
+        link = h.get("url") or f"https://news.ycombinator.com/item?id={h.get('objectID')}"
+        if not naslov or IZBACI.search(naslov + " " + link):
+            continue
+        out.append((h.get("points") or 0, h.get("num_comments") or 0, naslov, link))
+        if len(out) >= koliko:
+            break
+    return out
+
+
 def main():
     od = datetime.now(timezone.utc) - timedelta(hours=SATI)
     print(f"# Vijesti od {od.isoformat(timespec='minutes')} (zadnjih {SATI} h)\n")
@@ -143,6 +161,13 @@ def main():
             print(f"- [{t}] {n} :: {o}")
         print()
         ukupno += len(vijesti)
+    print("## Hacker News – najpopularnije IT priče (bodovi, komentari)")
+    try:
+        for bod, kom, n, link in hacker_news(od):
+            print(f"- [{bod} b, {kom} kom.] {n} :: {link}")
+    except Exception as e:  # noqa: BLE001
+        print(f"GREŠKA ({e})")
+    print()
     print(f"# Ukupno {ukupno} vijesti")
 
 

@@ -17,6 +17,11 @@ Mijenjaj ovu datoteku ako želiš promijeniti što ulazi u novine.
      Zagrebačka burza…), nekretnine, kamate, mirovine, porezi, trezorci, osobne financije.
   4. **Tehnologija i AI** – posebno: AI alati i modeli (Claude, GPT, Gemini…), AI regulativa,
      gadgeti, e-čitači i e-ink (Xteink, Kindle, Kobo…).
+     **Popularnost:** `skupi_vijesti.py` na kraju daje najpopularnije priče s Hacker Newsa
+     (bodovi i komentari iz zadnjih ~26 h). Koristi ih kao signal: tema iz profila koja ima
+     puno bodova dobiva prednost, a jedna ili dvije najpopularnije IT teme dana mogu ući i ako
+     nisu strogo u profilu (u `zasto` napiši da o tome raspravlja IT zajednica). Hacker News
+     nije izvor činjenica: činjenice uzmi iz pravih izvora ili pretrage, a ne iz naslova.
 - **Vrijeme za Zagreb:** vrlo kratko, prvi redak u "Ukratko" (npr. "Zagreb danas: 2–7 °C,
   kiša poslijepodne. Upozorenje: jaka bura."). Ako nema upozorenja, ne spominji ih.
 - **Za kraj:** jedan kratki citat ili neobična zanimljivost (polje `zanimljivost`),
@@ -34,11 +39,13 @@ Mijenjaj ovu datoteku ako želiš promijeniti što ulazi u novine.
 
 ## Postupak
 
-1. `pip install -q pillow` (ako nije instaliran).
+1. `python3 -m pip install -q --ignore-installed pillow` (u oblaku je sistemski Pillow
+   pokvaren za python3; obični `pip install` instalira za krivu verziju Pythona).
 2. `python3 skupi_vijesti.py > /tmp/vijesti.txt` – skupi RSS vijesti iz zadnjih ~26 sati
    (već filtrira MasterChef, sport i lifestyle) i vremensku prognozu za Zagreb.
-   Ako neki izvor ne radi, skripta ga preskoči. Ako ih ne radi većina, nadopuni
-   vijesti web pretragom.
+   Ako neki izvor ne radi, skripta ga preskoči. Ako ih ne radi većina (npr. greška 403
+   "no rule or network setting allows this host"), nadopuni vijesti web pretragom i u
+   završnom izvještaju navedi koje domene treba dopustiti u mrežnim postavkama okruženja.
 3. Pročitaj `/tmp/vijesti.txt` i odaberi najvažnije vijesti prema profilu. Spoji istu vijest
    iz više izvora u jedan članak. Za svaku rubriku stavi 3–6 članaka; manje važne skupi u
    zadnji članak rubrike s naslovom "Ukratko".
