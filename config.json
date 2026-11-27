@@ -14,7 +14,7 @@
     "BBC Technology": "https://feeds.bbci.co.uk/news/technology/rss.xml",
     "The Verge": "https://www.theverge.com/rss/index.xml",
     "Ars Technica": "https://feeds.arstechnica.com/arstechnica/technology-lab",
-    "Good e-Reader": "https://goodereader.com/blog/feed",
-    "The eBook Reader": "https://blog.the-ebook-reader.com/feed/"
+    "BleepingComputer": "https://www.bleepingcomputer.com/feed/",
+    "Space.com": "https://www.space.com/feeds.xml"
   }
 }

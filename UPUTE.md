@@ -15,8 +15,18 @@ Mijenjaj ovu datoteku ako želiš promijeniti što ulazi u novine.
   2. **Svijet** – geopolitika, EU, SAD, ratovi, veliki događaji.
   3. **Ekonomija i financije** – posebno: hrvatske tvrtke i startupi (Rimac, Infobip,
      Zagrebačka burza…), nekretnine, kamate, mirovine, porezi, trezorci, osobne financije.
-  4. **Tehnologija i AI** – posebno: AI alati i modeli (Claude, GPT, Gemini…), AI regulativa,
-     gadgeti, e-čitači i e-ink (Xteink, Kindle, Kobo…).
+  4. **Tehnologija i AI** – posebno:
+     - AI alati i modeli (Claude, GPT, Gemini…) i AI regulativa
+     - gadgeti
+     - kibernetička sigurnost (napadi, curenja podataka, važne ranjivosti, prevare; posebno u HR)
+     - softver i razvoj (programiranje, open source, alati i AI agenti za developere)
+     - Big Tech i tržište (Apple, Google, Microsoft, Meta, Nvidia: poslovni potezi, tužbe,
+       regulacija tržišnog natjecanja)
+     - čipovi i hardver (procesori, GPU-ovi, podatkovni centri, nestašice i cijene memorije)
+     - hrvatska digitalna scena (telekomi, internet i 5G, e-Građani, digitalizacija uprave,
+       hrvatske IT tvrtke)
+     - svemir i znanost (svemirske misije, važni znanstveni proboji vezani uz tehnologiju)
+     E-čitače i e-ink ne stavljaj, osim ako je riječ o stvarno velikoj vijesti.
      **Popularnost:** `skupi_vijesti.py` na kraju daje najpopularnije priče s Hacker Newsa
      (bodovi i komentari iz zadnjih ~26 h). Koristi ih kao signal: tema iz profila koja ima
      puno bodova dobiva prednost, a jedna ili dvije najpopularnije IT teme dana mogu ući i ako
