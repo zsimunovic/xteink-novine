@@ -3,10 +3,22 @@
   <id>urn:uuid:24fd6140-46bc-5f0c-8599-61a1cd8e1ac5</id>
   <title>Novine</title>
   <subtitle>Dnevni pregled vijesti za Xteink</subtitle>
-  <updated>2026-11-27T05:12:03Z</updated>
+  <updated>2026-11-28T05:11:54Z</updated>
   <author><name>Jutarnji pregled</name></author>
   <link rel="self" href="https://zsimunovic.github.io/xteink-novine/opds.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
   <link rel="start" href="https://zsimunovic.github.io/xteink-novine/opds.xml" type="application/atom+xml;profile=opds-catalog;kind=acquisition"/>
+  <entry>
+    <title>Novine – 28. studenoga 2026.</title>
+    <id>urn:uuid:82881102-f287-545a-a72c-1935094e3271</id>
+    <updated>2026-11-28T05:00:00Z</updated>
+    <author><name>Jutarnji pregled</name></author>
+    <dc:language>hr</dc:language>
+    <dc:issued>2026-11-28</dc:issued>
+    <summary>Hrvatski BDP u trećem tromjesečju porastao je 2,9 posto, 23. tromjesečje zaredom. • Sabor je raspravljao o slanju do 510 hrvatskih vojnika u Poljsku, Litvu i Mađarsku; HDZ danas u Šibeniku održava Opći sabor. • Zelenski upozorava da Rusija priprema novi masovni napad na ukrajinsku elektroenergetsku mrežu.</summary>
+    <link rel="http://opds-spec.org/acquisition" href="https://zsimunovic.github.io/xteink-novine/epub/Novine-2026-11-28.epub" type="application/epub+zip"/>
+    <link rel="http://opds-spec.org/image" href="https://zsimunovic.github.io/xteink-novine/naslovnice/Novine-2026-11-28.jpg" type="image/jpeg"/>
+    <link rel="http://opds-spec.org/image/thumbnail" href="https://zsimunovic.github.io/xteink-novine/naslovnice/Novine-2026-11-28.jpg" type="image/jpeg"/>
+  </entry>
   <entry>
     <title>Novine – 27. studenoga 2026.</title>
     <id>urn:uuid:0704b1bf-6c60-5dd2-8951-877ed04994b0</id>
